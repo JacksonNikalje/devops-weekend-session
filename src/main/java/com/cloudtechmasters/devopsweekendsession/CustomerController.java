@@ -26,5 +26,11 @@ public class CustomerController {
     public List<Customer> getAllUpdatedCustomers(){
         return Arrays.asList(new Customer("vamsiupdated","001","INDIA","AP","retail"));
     }
+    
+     //list all customers
+    @GetMapping("/listallcustomersupdatedmain")
+    public List<Customer> getAllUpdatedCustomersmain(){
+        return Arrays.asList(new Customer("jackson","001","INDIA","AP","retail"));
+    }
 
 }
